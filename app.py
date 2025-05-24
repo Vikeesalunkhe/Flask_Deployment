@@ -4,7 +4,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Hello World!..this is a Flask app"
+    # return "Hello World!..this is a Flask app"
+    return render_template('index.html')
+
 
 
 
